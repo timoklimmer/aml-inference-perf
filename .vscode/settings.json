@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "C:\\Users\\${env:USERNAME}\\Miniconda3\\envs\\locust\\python.exe",
+    "python.formatting.provider": "black"
+}

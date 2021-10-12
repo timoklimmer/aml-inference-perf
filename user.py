@@ -7,8 +7,8 @@ def _(parser):
 
 
 class User(FastHttpUser):
-    # specifiy a wait time as needed, when commented out/removed = no wait time
-    #wait_time = between(0.05, 0.1)
+    # specifiy a wait time as needed. When commented out/removed = no wait time
+    wait_time = between(1, 3)
 
     @task
     def test_api(self):
